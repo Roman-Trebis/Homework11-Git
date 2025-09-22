@@ -35,3 +35,12 @@ git status
 git log --oneline
 git branch -a
 git remote -v
+
+
+git checkout blog-branch
+
+git push -u origin blog-branch
+
+git checkout master
+git merge blog-branch
+git push origin master
